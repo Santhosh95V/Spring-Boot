@@ -13,7 +13,7 @@ public class TodoService {
 		todos.add(new Todo(++idCounter,"test","Learn to Dance", new Date(),false));
 		todos.add(new Todo(++idCounter,"test","Learn to MicroServices", new Date(),false));
 		todos.add(new Todo(++idCounter,"test","Learn to Angular", new Date(),false));
-		
+		//todos.add(new Todo(++idCounter,"test","Learn to Angular", new Date(),false));
 	}
 
 	public List<Todo> findAll(){
